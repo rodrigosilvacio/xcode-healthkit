@@ -253,7 +253,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyApp/MyApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 475J9QCGKW;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
@@ -261,6 +261,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PulsoDoDia;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "O Pulso do Dia lê do Apple Saúde seus passos, frequência cardíaca, frequência cardíaca em repouso, HRV, sono, calorias ativas e treinos para montar sua dashboard diária. Os dados ficam somente no seu iPhone e nunca são enviados para servidores.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "O Pulso do Dia não grava nem altera dados no Apple Saúde. O app apenas lê seus dados para montar a dashboard diária, e tudo fica somente no seu iPhone.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -297,7 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyApp/MyApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 475J9QCGKW;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
@@ -305,6 +306,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PulsoDoDia;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "O Pulso do Dia lê do Apple Saúde seus passos, frequência cardíaca, frequência cardíaca em repouso, HRV, sono, calorias ativas e treinos para montar sua dashboard diária. Os dados ficam somente no seu iPhone e nunca são enviados para servidores.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "O Pulso do Dia não grava nem altera dados no Apple Saúde. O app apenas lê seus dados para montar a dashboard diária, e tudo fica somente no seu iPhone.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

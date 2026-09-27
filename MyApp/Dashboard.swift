@@ -130,7 +130,7 @@ struct DashboardView: View {
 
     private func header(_ summary: DailySummary) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(summary.date.formatted(.dateTime.weekday(.wide).day().month(.wide)).capitalized)
+            Text(Format.dayTitle(summary.date))
                 .font(.subheadline.weight(.semibold))
             if let lastUpdated = model.lastUpdated {
                 Text("Atualizado às \(Format.time(lastUpdated))")
